@@ -1,5 +1,6 @@
 const readLine = require('readline-sync');
 
+//1
 function nameSwapper () {
-    console.log(first name);
+    console.log('Enter first name');
 }
