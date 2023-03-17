@@ -2,5 +2,7 @@ const readLine = require('readline-sync');
 
 //1
 function nameSwapper () {
-    console.log('Enter first name');
+    let first = readline.question('First Name');
+    let last = readline.question('Last name');
+    return(${last}, ${first});
 }
