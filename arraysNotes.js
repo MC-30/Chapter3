@@ -16,7 +16,7 @@ console.log(students[2]);
 
 console.log(students[3]);
 
-console.log(students[4]) //error, as there is no 5th item
+console.log(students[4]) // undefined / error, as there is no 5th item
 
 console.log(students[4-2]);
 
