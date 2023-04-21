@@ -2,7 +2,7 @@ const readLine = require('readLine-sync');
 
 let diceRolled = [];
 let character1 = {
-    
+
 }
 
 createChar(character1, diceRolled);
