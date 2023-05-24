@@ -38,3 +38,24 @@ for (let i = 2; i<arr.length; i=i+3){
 everyThird([10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130]);
 
 //6
+function everySecond(arr){ for (let i = 2; i<arr.length; i=i+2){ console.log(arr[i]) } } everySecond([5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]);
+
+//7
+function biggerThanFour(arr){
+    for (let i =0; i<arr.length; i++){
+        let item = arr[i];
+        if (item > 4){ console.log(item); }
+    } }
+    biggerThanFour([-10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]);
+
+//8
+function biggerThanNum(arr, num){
+    for (let i =0; i<arr.length; i++){
+        let item = arr[i];
+        if (item > num){ console.log(item); } } }
+        biggerThanNum([-10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60], 20);
+
+
+
+
+
